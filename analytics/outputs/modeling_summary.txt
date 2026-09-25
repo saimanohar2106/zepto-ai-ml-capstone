@@ -1,0 +1,36 @@
+MODULE 2 - MODELING SUMMARY
+============================
+
+CLASSIFICATION FEATURES
+['pclass', 'age', 'sibsp', 'parch', 'fare', 'sex', 'embarked']
+
+TRAIN/TEST SPLIT
+test_size=0.20, random_state=42, stratify=y
+Stratification preserves the original survival class proportion in train and test sets.
+
+CLASSIFICATION RESULTS
+              model  accuracy  precision   recall       f1      auc
+Logistic Regression  0.804469   0.793103 0.666667 0.724409 0.843742
+      Decision Tree  0.765363   0.754717 0.579710 0.655738 0.797101
+      Random Forest  0.815642   0.800000 0.695652 0.744186 0.830040
+
+IMBALANCE COMPARISON
+               method  precision   recall       f1
+             Baseline   0.793103 0.666667 0.724409
+Class Weight Balanced   0.729730 0.782609 0.755245
+                SMOTE   0.739726 0.782609 0.760563
+
+RANDOM FOREST GRID SEARCH
+Best parameters: {'classifier__max_depth': 5, 'classifier__max_features': 'sqrt', 'classifier__n_estimators': 100}
+Best CV F1: 0.7459
+OOB score: 0.8272
+
+REGRESSION RESULTS
+MAE: 20.8094
+RMSE: 30.4731
+R2: 0.3999
+Adjusted R2: 0.3679
+Predictors after encoding: 9
+
+PIPELINE RELOAD TEST
+Predictions match: True

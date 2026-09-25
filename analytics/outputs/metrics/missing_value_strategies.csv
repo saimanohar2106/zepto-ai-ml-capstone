@@ -1,0 +1,16 @@
+column,missing_percentage,strategy
+survived,0.0,No missing values
+pclass,0.0,No missing values
+sex,0.0,No missing values
+age,19.87,Median imputation because missing percentage is 19.87% (5%-30%)
+sibsp,0.0,No missing values
+parch,0.0,No missing values
+fare,0.0,No missing values
+embarked,0.22,Drop rows because missing percentage is 0.22% (<5%)
+class,0.0,No missing values
+who,0.0,No missing values
+adult_male,0.0,No missing values
+deck,77.22,Encode missing values as 'Missing' because missing percentage is 77.22% (>30%). Column retained as a separate category.
+embark_town,0.22,Drop rows because missing percentage is 0.22% (<5%)
+alive,0.0,No missing values
+alone,0.0,No missing values

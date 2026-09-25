@@ -1,0 +1,20 @@
+1. Chart 1 - Survival by Sex: The survival rate differs substantially between female and male passengers. Female passengers have a higher observed survival rate in this dataset.
+
+2. Chart 2 - Survival by Passenger Class: Survival rate changes across passenger classes. First-class passengers show a higher observed survival rate than lower classes.
+
+3. Chart 3 - Survival by Sex and Passenger Class: Combining sex and passenger class reveals additional structure that is not visible from either variable alone. The survival pattern differs across both groups.
+
+4. Chart 4 - Age vs Fare by Survival: Age and fare show different distributions for survivors and non-survivors. Fare contains several high-value observations, while age is distributed across a broad range.
+
+5. Chart 5 - Fare by Survival: Survivors generally show a different fare distribution from non-survivors. The box plot also highlights the presence of high-fare observations.
+
+6. Fare skewness: Right-skewed. The mean is 32.10, median is 14.45, and mode is 8.05. The ordering indicates the direction of skewness.
+
+7. Age IQR analysis identified 65 outliers, while fare IQR analysis identified 114 outliers using the 1.5*IQR rule.
+
+8. Strongest correlation: pclass and fare with coefficient -0.548. The absolute value indicates the strongest linear association among the six selected variables.
+
+9. Second strongest correlation: sibsp and parch with coefficient 0.415. This represents the second-largest absolute linear association in the selected correlation matrix.
+
+10. Standardization check: Age and fare were standardized only for EDA using z-score scaling on the full cleaned dataset. The standardized variables are not used as inputs to the classification modeling pipeline.
+

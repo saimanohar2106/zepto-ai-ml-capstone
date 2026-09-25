@@ -1,0 +1,16 @@
+metric,value
+age_q1,22.0
+age_q3,35.0
+age_iqr,13.0
+age_lower_bound,2.5
+age_upper_bound,54.5
+age_outlier_count,65.0
+fare_q1,7.8958
+fare_q3,31.0
+fare_iqr,23.1042
+fare_lower_bound,-26.7605
+fare_upper_bound,65.6563
+fare_outlier_count,114.0
+fare_mean,32.09668087739032
+fare_median,14.4542
+fare_mode,8.05
