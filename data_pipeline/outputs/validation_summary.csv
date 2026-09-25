@@ -1,0 +1,2 @@
+total_rows,minimum_required_rows,row_requirement_passed,missing_values,rating_range_valid,in_stock_boolean,gbp_to_inr_rate,sql_pandas_join_match
+100,60,True,0,True,True,105.5,True

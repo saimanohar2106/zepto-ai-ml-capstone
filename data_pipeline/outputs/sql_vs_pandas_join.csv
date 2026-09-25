@@ -1,0 +1,11 @@
+SQL_JOIN,PANDAS_MERGE
+1 | A Light in the Attic | 51.77 | 5461.74 | 3 | 1 | Books,1 | A Light in the Attic | 51.77 | 5461.74 | 3 | 1 | Books
+2 | Tipping the Velvet | 53.74 | 5669.57 | 1 | 1 | Books,2 | Tipping the Velvet | 53.74 | 5669.57 | 1 | 1 | Books
+3 | Soumission | 50.1 | 5285.55 | 1 | 1 | Books,3 | Soumission | 50.1 | 5285.55 | 1 | 1 | Books
+4 | Sharp Objects | 47.82 | 5045.01 | 4 | 1 | Books,4 | Sharp Objects | 47.82 | 5045.01 | 4 | 1 | Books
+5 | Sapiens: A Brief History of Humankind | 54.23 | 5721.26 | 5 | 1 | Books,5 | Sapiens: A Brief History of Humankind | 54.23 | 5721.26 | 5 | 1 | Books
+6 | The Requiem Red | 22.65 | 2389.57 | 1 | 1 | Books,6 | The Requiem Red | 22.65 | 2389.57 | 1 | 1 | Books
+7 | The Dirty Little Secrets of Getting Your Dream Job | 33.34 | 3517.37 | 4 | 1 | Books,7 | The Dirty Little Secrets of Getting Your Dream Job | 33.34 | 3517.37 | 4 | 1 | Books
+"8 | The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | 17.93 | 1891.62 | 3 | 1 | Books","8 | The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | 17.93 | 1891.62 | 3 | 1 | Books"
+9 | The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | 22.6 | 2384.3 | 4 | 1 | Books,9 | The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | 22.6 | 2384.3 | 4 | 1 | Books
+10 | The Black Maria | 52.15 | 5501.82 | 1 | 1 | Books,10 | The Black Maria | 52.15 | 5501.82 | 1 | 1 | Books
